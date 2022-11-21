@@ -1,0 +1,96 @@
+.footerFull{
+padding-top: 20px;
+  background-color: rgb(28, 76, 125);
+  color: white;
+ margin-top: 50px;
+ min-height: fit-content;
+}
+
+.footer {
+   
+    
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: none;
+    z-index: 100;
+  }
+  
+  .footer__option {
+  
+    display: flex;
+  
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+.footer__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+  }
+  
+  .footer__optionLineOne {
+    color: white;
+    font-size: 17px;
+    font-weight: 1000;
+  }
+  
+.footer__option > p {
+    color: white;
+    font-size: 10px;
+    margin-top: 2px;
+    font-weight: 1000;
+  }
+.footer__option > p:hover {
+    cursor: pointer;
+  }
+  
+
+.social__media {
+    display: flex;
+    justify-content: center;
+  }
+.social__media > i {
+    padding: px;
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+i:hover {
+    color: black;
+    border-color: black;
+    cursor: pointer;
+  }
+
+
+.Full__Address{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reachUs > h5 {
+  font-size: 13px;
+  margin-block-start: 2em;
+  margin-block-end: -0.33em;
+  font-weight: 800;
+}
+.Full__Address__Text{
+  margin-left: 10px;
+}

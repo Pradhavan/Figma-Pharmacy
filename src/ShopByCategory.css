@@ -1,0 +1,32 @@
+.SBC{
+    text-align: center;
+}
+
+.SBC__BOX {
+
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #100e0e;
+    background-color: white;
+    box-shadow: 5px 5px 5px #bdbbbb;
+}
+.SBC__BOX > h3{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(23, 170, 237);
+}
+
+.SBC__BOX > img {
+   width: 100px;
+   display: flex;
+   height: 100px;
+   margin-right: 5px;
+}

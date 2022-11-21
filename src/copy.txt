@@ -1,0 +1,104 @@
+return(
+<>
+<div className="SBC">
+  <Carousel 
+      showThumbs={false}
+      autoPlay={true}
+      transitionTime={3}
+      infiniteLoop={true}
+      showStatus={false}
+  >
+       { Data && Data.SBC.map(record =>{
+      return(
+        <div>
+        <div className="SBCC" key={record}>
+          <div className="SBC__Box">
+          <h>{record.dis}</h>
+          <img src={image}></img>
+          </div>
+          <div className="SBC__Box">
+          <h>{record.dis}</h>
+          <img src={image}></img>
+          </div>
+          <div className="SBC__Box">
+          <h>{record.dis}</h>
+          <img src={image}></img>
+          </div>
+          <div className="SBC__Box">
+          <h>{record.dis}</h>
+          <img src={image}></img>
+          </div>
+        </div>
+        </div>
+ )
+}
+)
+}
+
+    </Carousel>
+
+
+</div>
+</>
+)
+
+
+
+.OMTP{    
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: red;
+}
+
+.OMTP__Box{
+    display: flex;  
+    justify-content: center;
+    height: auto;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #eae5e5;
+    background-color: white;
+    box-shadow: 2px 2px 2px #bdbbbb;
+    color: black;
+    border-radius: 5px;
+    
+}
+.OMTP__BOX__Right > h1{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: normal;
+ 
+}
+.OMTP__BOX__Right > p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.OMTP__BOX__Right > button{
+    height:50px ;
+    width: 180px;
+    font-weight: 12px;
+    border-radius: 5px;
+    background-color: rgb(0, 208, 126);
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+    color: white;
+}
+.OMTP__BOX__Right > button:hover{
+    cursor: pointer;
+}
+.OMTP__BOX__Left > img{
+    width: 10em;
+    height: 10em;
+    margin-right: 10px;
+    margin-top: 50px;
+}
